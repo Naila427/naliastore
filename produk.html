@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk atau Menu NALIA STORE</title>
+    <style>
+        body {
+            font-family :Arial, Helvetica, sans-serif;
+            margin : 0;
+            padding : 0;
+        }
+        
+        h1 {
+            color: black;
+        }
+        nav {
+            background-color: rgb(154, 198, 243);
+            padding: 1em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        body {
+            background-color: rgb(217, 231, 243);
+        }
+        nav a {
+            color: black;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        body2 {
+            display:ruby-text-container;
+            justify-content: center;
+            max-width: 2000px;
+            padding: 10px;
+            margin: 0 20 px;
+            border: 1px rgb(156, 158, 160)
+        }  
+
+        .container {
+            display:ruby-text-container;
+            flex-direction:table-column;
+            max-width: 600px;
+            padding: 20px;
+            margin:0 20px;
+            border-radius: 30px;
+            background-color: rgb(193, 193, 248);
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav div {
+                margin-top: 1rem;
+            }
+
+            nav a {
+                font-size: 0.875rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav div {
+                margin-top: 1rem;
+            }
+
+            nav a {
+                font-size: 0.875rem;
+            }
+        }
+           
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="logo nalia store.png" width="150" height="150"/>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="profil.html">Profil</a>
+            <a href="produk.html">Produk</a>
+            <a href="saran.html">Saran</a>
+        </div>
+    </nav>
+</body>
+
+<body2>
+    <center><h1>NALIA STORE</h1></center>
+    <br>
+    <h2>Produk kami :</h2>
+    <ol>
+        <li>Burger</li>
+        <li>Kebab</li>
+        <li>Kentang Goreng</li>
+        <li>Cocacola</li> 
+        <li>Pizza</li>
+        <li>Ayam Goreng</li>
+        <li>Ice Cream</li>               
+    </ol>
+    <br>
+    <br>
+        <div class="container">
+            <center><h2>MENU</h2></center>
+            <table border="1">
+                <tr>
+                    <th>No</th>
+                    <th>Gambar</th>
+                    <th>Nama</th>
+                    <th>harga</th>
+                </tr>
+                <tr>
+                    <th>1</th><th><img src="1.png" alt="Gambar burger" width="250" height="250"></th><th>BURGER</th><th>15.000</th>
+                </tr>
+                <tr>
+                    <th>2</th><th><img src="2.png" alt="Gambar kebab" width="250" height="250"></th><th>KEBAB</th><th>15.000</th>
+                </tr>
+                <tr>
+                    <th>3</th><th><img src="3.png" alt="Gambar kentanggoreng" width="250" height="250"></th><th>KENTANG GORENG</th><th>8.000</th>
+                </tr>
+                <tr>
+                    <th>4</th><th><img src="4.png" alt="Gambar cocacola" width="250" height="250"></th><th>COCACOLA</th><th>7.000</th>
+                </tr>
+                <tr>
+                    <th>5</th><th><img src="5.png" alt="Gambar pizza" width="250" height="250"></th><th>PIZZA</th><th>25.000</th>
+                </tr>
+                <tr>
+                    <th>6</th><th><img src="6.png" alt="Gambar ayamgoreng" width="250" height="250"></th><th>AYAM GORENG</th><th>12.000</th>
+                </tr>
+                <tr>
+                    <th>7</th><th><img src="7.png" alt="Gambar icecream" width="250" height="250"></th><th>ICE CREAM</th><th>10.000</th>
+                </tr>
+            </table>
+        </div>
+</body2>
+</html>

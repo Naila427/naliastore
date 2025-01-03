@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Depan dengan MENU</title>
+    <style>
+        body {
+            font-family :Arial, Helvetica, sans-serif;
+            margin : 0;
+            padding : 0;
+        }
+        
+        h1 {
+            color: black;
+        }
+        nav {
+            background-color: rgb(154, 198, 243);
+            padding: 1em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        body {
+            background-color: rgb(217, 231, 243);
+        }
+        nav a {
+            color: black;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav div {
+                margin-top: 1rem;
+            }
+            .content img {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav div {
+                margin-top: 1rem;
+            }
+            .content img {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="logo nalia store.png" alt="Logo NALIA STORE" width="150" height="150"/>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="profil.html">Profil</a>
+            <a href="produk.html">Produk</a>
+            <a href="saran.html">Saran</a>
+        </div>
+    </nav>
+</body>
+
+<body2>
+    <center>
+        <h1>SELAMAT DATANG DI NALIA STORE</h1>
+        <h2>-MENU BEST SELLER KAMI-</h2>
+        <img src="6.png" alt="gambar ayamggoreng" width="500" height="550">
+        <h2 style="color:rgb(34, 33, 33);">Ayam Goreng</h2>
+        <p>Ayam goreng dengan daging yang juicy dan crispy</p>
+        <p>Dengan harga 12.000 saja</p>
+           
+        <img src="3.png" alt="gambar kentanggoreng" width="500" height="550">
+        <h2 style="color:rgb(34, 33, 33);">Kentang Goreng</h2>
+        <p>Kentang gorengnya gurih dan enak</p>
+        <p>Harganya 8.000 saja</p>
+    </center>
+</body2>
+</html>
